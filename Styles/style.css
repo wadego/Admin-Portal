@@ -1,0 +1,67 @@
+h1 {
+    text-align: center;
+    font-size:xx-large;
+}
+
+button {
+    background-color: aliceblue;
+    font-size: large;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+input {
+    font-size: large;
+    height:34px;
+    border-radius: 10px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table th, table td {
+    border: 1px solid black;
+}
+
+.upload-zone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.drop-zone {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 150px;
+    height: 150px;
+    border: 2px dashed #aeb7e4;
+    padding: 10px;
+    margin: 10px;
+}
+
+.upload-interval {
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.file-upload {
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.hidden {
+    display: none;
+}
+
+.button-container {
+    margin-bottom: 20px; 
+}
+
+.button-container button {
+    margin-right: 100px; 
+}
